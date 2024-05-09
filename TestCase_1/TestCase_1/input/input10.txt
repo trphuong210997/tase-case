@@ -1,0 +1,34 @@
+k=2
+buildTree 1
+(1,2)
+inorderTraversal
+postorderTraversal
+clear
+buildTree 2
+(3,2) (2,3)
+inorderTraversal
+postorderTraversal
+clear
+buildTree 3
+(3,2) (2,3) (4,3)
+inorderTraversal
+postorderTraversal
+clear
+buildTree 4
+(3,2) (1,2) (2,3) (4,3)
+inorderTraversal
+postorderTraversal
+clear
+buildTree 4
+(3,2) (1,2) (2,3) (4,1)
+inorderTraversal
+postorderTraversal
+clear
+buildTree 8
+(5,6) (2,2) (7,3) (2,8) (8,7) (8,1) (9,4) (3,5)
+inorderTraversal
+postorderTraversal
+buildTree 7
+(5,6) (2,2) (7,3) (2,8) (8,7) (8,1) (9,4)
+inorderTraversal
+postorderTraversal

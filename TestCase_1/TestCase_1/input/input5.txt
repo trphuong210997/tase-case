@@ -1,0 +1,50 @@
+k=1
+search (6)
+insert (6)
+insert (8)
+insert (7)
+insert (9)
+insert (10)
+insert (11)
+insert (4)
+insert (5)
+insert (2)
+insert (3)
+insert (1)
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+remove (-1)
+inorderTraversal
+remove (6)
+inorderTraversal
+remove (5)
+inorderTraversal
+remove (10)
+inorderTraversal
+remove (2)
+inorderTraversal
+remove (3)
+inorderTraversal
+remove (8)
+inorderTraversal
+remove (7)
+inorderTraversal
+remove (3)
+inorderTraversal
+remove (4)
+inorderTraversal
+remove (1)
+inorderTraversal
+remove (2)
+inorderTraversal
+remove (9)
+inorderTraversal
+remove (11)
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+clear
+inorderTraversal

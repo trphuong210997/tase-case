@@ -1,0 +1,40 @@
+line 1: k=2
+line 2: search (5,6)
+FALSE
+line 3: insert (5,6)
+line 4: insert (2,2)
+line 5: insert (2,8)
+line 6: insert (7,3)
+line 7: insert (3,5)
+line 8: insert (8,1)
+line 9: insert (8,7)
+line 10: insert (9,6)
+line 11: nodeCount_height_leafCount
+nodeCount=8;height=4;leafCount=3
+line 12: inorderTraversal
+(2,2) (2,8) (3,5) (5,6) (8,1) (7,3) (8,7) (9,6) 
+line 13: preorderTraversal
+(5,6) (2,2) (2,8) (3,5) (7,3) (8,1) (8,7) (9,6) 
+line 14: postorderTraversal
+(3,5) (2,8) (2,2) (8,1) (9,6) (8,7) (7,3) (5,6) 
+line 15: search (0,0)
+FALSE
+line 16: search (5,6)
+TRUE
+line 17: search (2,2)
+TRUE
+line 18: search (2,8)
+TRUE
+line 19: search (7,3)
+TRUE
+line 20: search (3,5)
+TRUE
+line 21: search (8,1)
+TRUE
+line 22: search (8,7)
+TRUE
+line 23: search (9,6)
+TRUE
+line 24: clear
+line 25: nodeCount_height_leafCount
+nodeCount=0;height=0;leafCount=0

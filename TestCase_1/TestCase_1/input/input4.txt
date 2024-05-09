@@ -1,0 +1,25 @@
+k=2
+search (5,6)
+insert (5,6)
+insert (2,2)
+insert (2,8)
+insert (7,3)
+insert (3,5)
+insert (8,1)
+insert (8,7)
+insert (9,6)
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+search (0,0)
+search (5,6)
+search (2,2)
+search (2,8)
+search (7,3)
+search (3,5)
+search (8,1)
+search (8,7)
+search (9,6)
+clear
+nodeCount_height_leafCount

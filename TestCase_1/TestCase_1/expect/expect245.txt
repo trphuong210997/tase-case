@@ -1,0 +1,742 @@
+line 1: k=1
+line 2: postorderTraversal
+
+line 3: inorderTraversal
+
+line 4: insert (3)
+line 5: inorderTraversal
+(3) 
+line 6: clear
+line 7: buildTree 3
+(10) (4) (7) 
+line 8: inorderTraversal
+(4) (7) (10) 
+line 9: remove (3)
+line 10: inorderTraversal
+(4) (7) (10) 
+line 11: clear
+line 12: buildTree 20
+(8) (1) (8) (2) (4) (6) (10) (4) (6) (2) (5) (5) (10) (7) (6) (2) (9) (10) (2) (8) 
+line 13: inorderTraversal
+(1) (2) (2) (2) (2) (4) (4) (5) (5) (6) (6) (6) (7) (8) (8) (8) (9) (10) (10) (10) 
+line 14: insert (6)
+line 15: inorderTraversal
+(1) (2) (2) (2) (2) (4) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (9) (10) (10) (10) 
+line 16: search (10)
+TRUE
+line 17: inorderTraversal
+(1) (2) (2) (2) (2) (4) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (9) (10) (10) (10) 
+line 18: nodeCount_height_leafCount
+nodeCount=21;height=5;leafCount=9
+line 19: inorderTraversal
+(1) (2) (2) (2) (2) (4) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (9) (10) (10) (10) 
+line 20: insert (9)
+line 21: inorderTraversal
+(1) (2) (2) (2) (2) (4) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 22: remove (4)
+line 23: inorderTraversal
+(1) (2) (2) (2) (2) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 24: remove (7)
+line 25: inorderTraversal
+(1) (2) (2) (2) (2) (4) (5) (5) (6) (6) (6) (6) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 26: insert (1)
+line 27: inorderTraversal
+(1) (1) (2) (2) (2) (2) (4) (5) (5) (6) (6) (6) (6) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 28: remove (4)
+line 29: inorderTraversal
+(1) (1) (2) (2) (2) (2) (5) (5) (6) (6) (6) (6) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 30: clear
+line 31: buildTree 12
+(8) (2) (2) (5) (9) (1) (7) (6) (3) (2) (4) (4) 
+line 32: inorderTraversal
+(1) (2) (2) (2) (3) (4) (4) (5) (6) (7) (8) (9) 
+line 33: remove (6)
+line 34: inorderTraversal
+(1) (2) (2) (2) (3) (4) (4) (5) (7) (8) (9) 
+line 35: preorderTraversal
+(4) (2) (1) (2) (2) (3) (7) (4) (5) (8) (9) 
+line 36: inorderTraversal
+(1) (2) (2) (2) (3) (4) (4) (5) (7) (8) (9) 
+line 37: clear
+line 38: buildTree 12
+(1) (3) (8) (6) (6) (3) (3) (10) (4) (3) (4) (3) 
+line 39: inorderTraversal
+(1) (3) (3) (3) (3) (3) (4) (4) (6) (6) (8) (10) 
+line 40: remove (1)
+line 41: inorderTraversal
+(3) (3) (3) (3) (3) (4) (4) (6) (6) (8) (10) 
+line 42: remove (6)
+line 43: inorderTraversal
+(3) (3) (3) (3) (3) (4) (4) (6) (8) (10) 
+line 44: clear
+line 45: buildTree 10
+(8) (3) (7) (1) (3) (2) (5) (4) (4) (9) 
+line 46: inorderTraversal
+(1) (2) (3) (3) (4) (4) (5) (7) (8) (9) 
+line 47: insert (7)
+line 48: inorderTraversal
+(1) (2) (3) (3) (4) (4) (5) (7) (7) (8) (9) 
+line 49: insert (8)
+line 50: inorderTraversal
+(1) (2) (3) (3) (4) (4) (5) (7) (7) (8) (8) (9) 
+line 51: clear
+line 52: buildTree 14
+(3) (1) (9) (5) (9) (8) (3) (2) (10) (9) (6) (10) (10) (8) 
+line 53: inorderTraversal
+(1) (2) (3) (3) (5) (6) (8) (8) (9) (9) (9) (10) (10) (10) 
+line 54: insert (8)
+line 55: inorderTraversal
+(1) (2) (3) (3) (5) (6) (8) (8) (8) (9) (9) (9) (10) (10) (10) 
+line 56: insert (4)
+line 57: inorderTraversal
+(1) (2) (3) (3) (4) (5) (6) (8) (8) (8) (9) (9) (9) (10) (10) (10) 
+line 58: clear
+line 59: buildTree 5
+(7) (4) (10) (6) (10) 
+line 60: inorderTraversal
+(4) (6) (7) (10) (10) 
+line 61: insert (6)
+line 62: inorderTraversal
+(4) (6) (6) (7) (10) (10) 
+line 63: insert (9)
+line 64: inorderTraversal
+(4) (6) (6) (7) (9) (10) (10) 
+line 65: insert (10)
+line 66: inorderTraversal
+(4) (6) (6) (7) (9) (10) (10) (10) 
+line 67: insert (10)
+line 68: inorderTraversal
+(4) (6) (6) (7) (9) (10) (10) (10) (10) 
+line 69: insert (5)
+line 70: inorderTraversal
+(4) (5) (6) (6) (7) (9) (10) (10) (10) (10) 
+line 71: clear
+line 72: buildTree 9
+(10) (3) (2) (10) (7) (5) (6) (9) (8) 
+line 73: inorderTraversal
+(2) (3) (5) (6) (7) (8) (9) (10) (10) 
+line 74: insert (9)
+line 75: inorderTraversal
+(2) (3) (5) (6) (7) (8) (9) (9) (10) (10) 
+line 76: insert (2)
+line 77: inorderTraversal
+(2) (2) (3) (5) (6) (7) (8) (9) (9) (10) (10) 
+line 78: insert (4)
+line 79: inorderTraversal
+(2) (2) (3) (4) (5) (6) (7) (8) (9) (9) (10) (10) 
+line 80: insert (6)
+line 81: inorderTraversal
+(2) (2) (3) (4) (5) (6) (6) (7) (8) (9) (9) (10) (10) 
+line 82: remove (10)
+line 83: inorderTraversal
+(2) (2) (3) (4) (5) (6) (6) (7) (8) (9) (9) (10) 
+line 84: remove (9)
+line 85: inorderTraversal
+(2) (2) (3) (4) (5) (6) (6) (7) (8) (9) (10) 
+line 86: insert (1)
+line 87: inorderTraversal
+(1) (2) (2) (3) (4) (5) (6) (6) (7) (8) (9) (10) 
+line 88: clear
+line 89: buildTree 9
+(8) (4) (3) (4) (5) (6) (6) (2) (7) 
+line 90: inorderTraversal
+(2) (3) (4) (4) (5) (6) (6) (7) (8) 
+line 91: insert (8)
+line 92: inorderTraversal
+(2) (3) (4) (4) (5) (6) (6) (7) (8) (8) 
+line 93: insert (6)
+line 94: inorderTraversal
+(2) (3) (4) (4) (5) (6) (6) (6) (7) (8) (8) 
+line 95: insert (1)
+line 96: inorderTraversal
+(1) (2) (3) (4) (4) (5) (6) (6) (6) (7) (8) (8) 
+line 97: clear
+line 98: buildTree 2
+(7) (1) 
+line 99: inorderTraversal
+(1) (7) 
+line 100: clear
+line 101: buildTree 8
+(10) (5) (3) (5) (2) (2) (5) (10) 
+line 102: inorderTraversal
+(2) (2) (3) (5) (5) (5) (10) (10) 
+line 103: clear
+line 104: buildTree 4
+(2) (10) (3) (2) 
+line 105: inorderTraversal
+(2) (2) (3) (10) 
+line 106: clear
+line 107: buildTree 20
+(7) (1) (7) (2) (1) (3) (8) (5) (3) (7) (5) (3) (3) (2) (1) (6) (2) (4) (9) (7) 
+line 108: inorderTraversal
+(1) (1) (1) (2) (2) (2) (3) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (8) (9) 
+line 109: insert (1)
+line 110: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (8) (9) 
+line 111: insert (8)
+line 112: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (8) (8) (9) 
+line 113: remove (3)
+line 114: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (8) (8) (9) 
+line 115: insert (7)
+line 116: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (7) (8) (8) (9) 
+line 117: insert (8)
+line 118: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (7) (8) (8) (8) (9) 
+line 119: insert (7)
+line 120: inorderTraversal
+(1) (1) (1) (1) (2) (2) (2) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (7) (7) (7) (8) (8) (8) (9) 
+line 121: clear
+line 122: buildTree 16
+(5) (3) (8) (6) (1) (7) (4) (6) (8) (8) (5) (6) (8) (8) (6) (9) 
+line 123: inorderTraversal
+(1) (3) (4) (5) (5) (6) (6) (6) (6) (7) (8) (8) (8) (8) (8) (9) 
+line 124: clear
+line 125: buildTree 2
+(3) (2) 
+line 126: inorderTraversal
+(2) (3) 
+line 127: insert (10)
+line 128: inorderTraversal
+(2) (3) (10) 
+line 129: insert (3)
+line 130: inorderTraversal
+(2) (3) (3) (10) 
+line 131: insert (4)
+line 132: inorderTraversal
+(2) (3) (3) (4) (10) 
+line 133: clear
+line 134: buildTree 7
+(10) (9) (2) (5) (10) (4) (8) 
+line 135: inorderTraversal
+(2) (4) (5) (8) (9) (10) (10) 
+line 136: remove (6)
+line 137: inorderTraversal
+(2) (4) (5) (8) (9) (10) (10) 
+line 138: remove (2)
+line 139: inorderTraversal
+(4) (5) (8) (9) (10) (10) 
+line 140: clear
+line 141: buildTree 17
+(6) (6) (1) (1) (5) (5) (2) (1) (1) (5) (2) (3) (4) (10) (8) (5) (6) 
+line 142: inorderTraversal
+(1) (1) (1) (1) (2) (2) (3) (4) (5) (5) (5) (5) (6) (6) (6) (8) (10) 
+line 143: insert (5)
+line 144: inorderTraversal
+(1) (1) (1) (1) (2) (2) (3) (4) (5) (5) (5) (5) (5) (6) (6) (6) (8) (10) 
+line 145: insert (5)
+line 146: inorderTraversal
+(1) (1) (1) (1) (2) (2) (3) (4) (5) (5) (5) (5) (5) (5) (6) (6) (6) (8) (10) 
+line 147: insert (1)
+line 148: inorderTraversal
+(1) (1) (1) (1) (1) (2) (2) (3) (4) (5) (5) (5) (5) (5) (5) (6) (6) (6) (8) (10) 
+line 149: clear
+line 150: buildTree 11
+(8) (6) (5) (10) (8) (9) (2) (5) (6) (8) (9) 
+line 151: inorderTraversal
+(2) (5) (5) (6) (6) (8) (8) (8) (9) (9) (10) 
+line 152: clear
+line 153: buildTree 14
+(1) (7) (6) (10) (4) (6) (8) (4) (8) (3) (5) (10) (4) (7) 
+line 154: inorderTraversal
+(1) (3) (4) (4) (4) (5) (6) (6) (7) (7) (8) (8) (10) (10) 
+line 155: insert (1)
+line 156: inorderTraversal
+(1) (1) (3) (4) (4) (4) (5) (6) (6) (7) (7) (8) (8) (10) (10) 
+line 157: clear
+line 158: buildTree 8
+(7) (6) (1) (4) (9) (6) (1) (2) 
+line 159: inorderTraversal
+(1) (1) (2) (4) (6) (6) (7) (9) 
+line 160: insert (2)
+line 161: inorderTraversal
+(1) (1) (2) (2) (4) (6) (6) (7) (9) 
+line 162: clear
+line 163: buildTree 20
+(1) (4) (10) (6) (1) (6) (7) (5) (10) (5) (6) (6) (8) (9) (4) (7) (4) (7) (9) (6) 
+line 164: inorderTraversal
+(1) (1) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 165: search (4)
+TRUE
+line 166: inorderTraversal
+(1) (1) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 167: inorderTraversal
+(1) (1) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 168: inorderTraversal
+(1) (1) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 169: insert (2)
+line 170: inorderTraversal
+(1) (1) (2) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 171: insert (4)
+line 172: inorderTraversal
+(1) (1) (2) (4) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) (10) 
+line 173: insert (9)
+line 174: inorderTraversal
+(1) (1) (2) (4) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (9) (10) (10) 
+line 175: remove (10)
+line 176: inorderTraversal
+(1) (1) (2) (4) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (9) (10) 
+line 177: insert (10)
+line 178: inorderTraversal
+(1) (1) (2) (4) (4) (4) (4) (5) (5) (6) (6) (6) (6) (6) (7) (7) (7) (8) (9) (9) (9) (10) (10) 
+line 179: clear
+line 180: buildTree 14
+(8) (3) (3) (8) (10) (10) (2) (6) (8) (1) (9) (8) (4) (3) 
+line 181: inorderTraversal
+(1) (2) (3) (3) (3) (4) (6) (8) (8) (8) (8) (9) (10) (10) 
+line 182: insert (6)
+line 183: inorderTraversal
+(1) (2) (3) (3) (3) (4) (6) (6) (8) (8) (8) (8) (9) (10) (10) 
+line 184: clear
+line 185: buildTree 11
+(6) (8) (8) (1) (3) (10) (5) (8) (3) (1) (2) 
+line 186: inorderTraversal
+(1) (1) (2) (3) (3) (5) (6) (8) (8) (8) (10) 
+line 187: clear
+line 188: buildTree 7
+(5) (1) (3) (1) (4) (10) (1) 
+line 189: inorderTraversal
+(1) (1) (1) (3) (4) (5) (10) 
+line 190: insert (8)
+line 191: inorderTraversal
+(1) (1) (1) (3) (4) (5) (8) (10) 
+line 192: clear
+line 193: buildTree 4
+(3) (2) (9) (1) 
+line 194: inorderTraversal
+(1) (2) (3) (9) 
+line 195: clear
+line 196: buildTree 9
+(9) (8) (8) (9) (3) (8) (2) (6) (5) 
+line 197: inorderTraversal
+(2) (3) (5) (6) (8) (8) (8) (9) (9) 
+line 198: clear
+line 199: buildTree 13
+(1) (2) (5) (4) (8) (3) (3) (6) (5) (3) (10) (10) (2) 
+line 200: inorderTraversal
+(1) (2) (2) (3) (3) (3) (4) (5) (5) (6) (8) (10) (10) 
+line 201: preorderTraversal
+(4) (2) (1) (2) (3) (3) (3) (6) (5) (5) (10) (8) (10) 
+line 202: inorderTraversal
+(1) (2) (2) (3) (3) (3) (4) (5) (5) (6) (8) (10) (10) 
+line 203: insert (6)
+line 204: inorderTraversal
+(1) (2) (2) (3) (3) (3) (4) (5) (5) (6) (6) (8) (10) (10) 
+line 205: clear
+line 206: buildTree 14
+(8) (9) (4) (9) (9) (3) (2) (1) (6) (8) (10) (6) (8) (8) 
+line 207: inorderTraversal
+(1) (2) (3) (4) (6) (6) (8) (8) (8) (8) (9) (9) (9) (10) 
+line 208: insert (8)
+line 209: inorderTraversal
+(1) (2) (3) (4) (6) (6) (8) (8) (8) (8) (8) (9) (9) (9) (10) 
+line 210: insert (6)
+line 211: inorderTraversal
+(1) (2) (3) (4) (6) (6) (6) (8) (8) (8) (8) (8) (9) (9) (9) (10) 
+line 212: insert (10)
+line 213: inorderTraversal
+(1) (2) (3) (4) (6) (6) (6) (8) (8) (8) (8) (8) (9) (9) (9) (10) (10) 
+line 214: clear
+line 215: buildTree 4
+(4) (4) (8) (10) 
+line 216: inorderTraversal
+(4) (4) (8) (10) 
+line 217: insert (8)
+line 218: inorderTraversal
+(4) (4) (8) (8) (10) 
+line 219: insert (3)
+line 220: inorderTraversal
+(3) (4) (4) (8) (8) (10) 
+line 221: remove (7)
+line 222: inorderTraversal
+(3) (4) (4) (8) (8) (10) 
+line 223: clear
+line 224: buildTree 5
+(7) (7) (8) (7) (6) 
+line 225: inorderTraversal
+(6) (7) (7) (7) (8) 
+line 226: remove (3)
+line 227: inorderTraversal
+(6) (7) (7) (7) (8) 
+line 228: insert (10)
+line 229: inorderTraversal
+(6) (7) (7) (7) (8) (10) 
+line 230: insert (2)
+line 231: inorderTraversal
+(2) (6) (7) (7) (7) (8) (10) 
+line 232: clear
+line 233: buildTree 2
+(7) (9) 
+line 234: inorderTraversal
+(7) (9) 
+line 235: insert (9)
+line 236: inorderTraversal
+(7) (9) (9) 
+line 237: insert (2)
+line 238: inorderTraversal
+(2) (7) (9) (9) 
+line 239: insert (3)
+line 240: inorderTraversal
+(2) (3) (7) (9) (9) 
+line 241: insert (7)
+line 242: inorderTraversal
+(2) (3) (7) (7) (9) (9) 
+line 243: insert (7)
+line 244: inorderTraversal
+(2) (3) (7) (7) (7) (9) (9) 
+line 245: insert (9)
+line 246: inorderTraversal
+(2) (3) (7) (7) (7) (9) (9) (9) 
+line 247: insert (10)
+line 248: inorderTraversal
+(2) (3) (7) (7) (7) (9) (9) (9) (10) 
+line 249: clear
+line 250: buildTree 16
+(9) (9) (10) (8) (4) (2) (4) (8) (8) (2) (8) (2) (3) (3) (8) (1) 
+line 251: inorderTraversal
+(1) (2) (2) (2) (3) (3) (4) (4) (8) (8) (8) (8) (8) (9) (9) (10) 
+line 252: clear
+line 253: buildTree 3
+(5) (3) (5) 
+line 254: inorderTraversal
+(3) (5) (5) 
+line 255: insert (2)
+line 256: inorderTraversal
+(2) (3) (5) (5) 
+line 257: postorderTraversal
+(2) (3) (5) (5) 
+line 258: inorderTraversal
+(2) (3) (5) (5) 
+line 259: remove (7)
+line 260: inorderTraversal
+(2) (3) (5) (5) 
+line 261: clear
+line 262: buildTree 13
+(9) (5) (2) (5) (7) (9) (4) (6) (5) (7) (10) (3) (10) 
+line 263: inorderTraversal
+(2) (3) (4) (5) (5) (5) (6) (7) (7) (9) (9) (10) (10) 
+line 264: insert (1)
+line 265: inorderTraversal
+(1) (2) (3) (4) (5) (5) (5) (6) (7) (7) (9) (9) (10) (10) 
+line 266: clear
+line 267: buildTree 18
+(4) (9) (4) (5) (9) (3) (4) (3) (5) (8) (8) (5) (6) (9) (5) (1) (7) (3) 
+line 268: inorderTraversal
+(1) (3) (3) (3) (4) (4) (4) (5) (5) (5) (5) (6) (7) (8) (8) (9) (9) (9) 
+line 269: insert (8)
+line 270: inorderTraversal
+(1) (3) (3) (3) (4) (4) (4) (5) (5) (5) (5) (6) (7) (8) (8) (8) (9) (9) (9) 
+line 271: clear
+line 272: buildTree 20
+(6) (7) (1) (7) (5) (5) (3) (7) (10) (4) (8) (8) (10) (1) (9) (3) (3) (8) (9) (10) 
+line 273: inorderTraversal
+(1) (1) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 274: remove (1)
+line 275: inorderTraversal
+(1) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (8) (8) (8) (9) (9) (10) (10) (10) 
+line 276: insert (10)
+line 277: inorderTraversal
+(1) (3) (3) (3) (4) (5) (5) (6) (7) (7) (7) (8) (8) (8) (9) (9) (10) (10) (10) (10) 
+line 278: insert (6)
+line 279: inorderTraversal
+(1) (3) (3) (3) (4) (5) (5) (6) (6) (7) (7) (7) (8) (8) (8) (9) (9) (10) (10) (10) (10) 
+line 280: search (6)
+TRUE
+line 281: inorderTraversal
+(1) (3) (3) (3) (4) (5) (5) (6) (6) (7) (7) (7) (8) (8) (8) (9) (9) (10) (10) (10) (10) 
+line 282: clear
+line 283: buildTree 6
+(4) (5) (6) (10) (2) (9) 
+line 284: inorderTraversal
+(2) (4) (5) (6) (9) (10) 
+line 285: remove (5)
+line 286: inorderTraversal
+(2) (4) (6) (9) (10) 
+line 287: insert (1)
+line 288: inorderTraversal
+(1) (2) (4) (6) (9) (10) 
+line 289: clear
+line 290: buildTree 1
+(4) 
+line 291: inorderTraversal
+(4) 
+line 292: insert (7)
+line 293: inorderTraversal
+(4) (7) 
+line 294: remove (3)
+line 295: inorderTraversal
+(4) (7) 
+line 296: insert (9)
+line 297: inorderTraversal
+(4) (7) (9) 
+line 298: insert (2)
+line 299: inorderTraversal
+(2) (4) (7) (9) 
+line 300: insert (5)
+line 301: inorderTraversal
+(2) (4) (5) (7) (9) 
+line 302: insert (10)
+line 303: inorderTraversal
+(2) (4) (5) (7) (9) (10) 
+line 304: insert (6)
+line 305: inorderTraversal
+(2) (4) (5) (6) (7) (9) (10) 
+line 306: clear
+line 307: buildTree 4
+(7) (3) (8) (3) 
+line 308: inorderTraversal
+(3) (3) (7) (8) 
+line 309: insert (2)
+line 310: inorderTraversal
+(2) (3) (3) (7) (8) 
+line 311: insert (6)
+line 312: inorderTraversal
+(2) (3) (3) (6) (7) (8) 
+line 313: insert (5)
+line 314: inorderTraversal
+(2) (3) (3) (5) (6) (7) (8) 
+line 315: insert (8)
+line 316: inorderTraversal
+(2) (3) (3) (5) (6) (7) (8) (8) 
+line 317: inorderTraversal
+(2) (3) (3) (5) (6) (7) (8) (8) 
+line 318: inorderTraversal
+(2) (3) (3) (5) (6) (7) (8) (8) 
+line 319: remove (8)
+line 320: inorderTraversal
+(2) (3) (3) (5) (6) (7) (8) 
+line 321: clear
+line 322: buildTree 4
+(9) (4) (1) (2) 
+line 323: inorderTraversal
+(1) (2) (4) (9) 
+line 324: clear
+line 325: buildTree 12
+(10) (7) (7) (10) (8) (1) (10) (7) (8) (5) (7) (7) 
+line 326: inorderTraversal
+(1) (5) (7) (7) (7) (7) (7) (8) (8) (10) (10) (10) 
+line 327: remove (4)
+line 328: inorderTraversal
+(1) (5) (7) (7) (7) (7) (7) (8) (8) (10) (10) (10) 
+line 329: clear
+line 330: buildTree 14
+(6) (6) (6) (10) (8) (8) (6) (1) (10) (1) (6) (3) (7) (5) 
+line 331: inorderTraversal
+(1) (1) (3) (5) (6) (6) (6) (6) (6) (7) (8) (8) (10) (10) 
+line 332: insert (1)
+line 333: inorderTraversal
+(1) (1) (1) (3) (5) (6) (6) (6) (6) (6) (7) (8) (8) (10) (10) 
+line 334: insert (5)
+line 335: inorderTraversal
+(1) (1) (1) (3) (5) (5) (6) (6) (6) (6) (6) (7) (8) (8) (10) (10) 
+line 336: remove (8)
+line 337: inorderTraversal
+(1) (1) (1) (3) (5) (5) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 338: search (5)
+TRUE
+line 339: inorderTraversal
+(1) (1) (1) (3) (5) (5) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 340: postorderTraversal
+(1) (1) (1) (5) (5) (6) (6) (3) (6) (7) (6) (10) (10) (8) (6) 
+line 341: inorderTraversal
+(1) (1) (1) (3) (5) (5) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 342: insert (5)
+line 343: inorderTraversal
+(1) (1) (1) (3) (5) (5) (5) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 344: insert (6)
+line 345: inorderTraversal
+(1) (1) (1) (3) (5) (5) (5) (6) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 346: insert (1)
+line 347: inorderTraversal
+(1) (1) (1) (1) (3) (5) (5) (5) (6) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 348: remove (6)
+line 349: inorderTraversal
+(1) (1) (1) (1) (3) (5) (5) (5) (6) (6) (6) (6) (6) (7) (8) (10) (10) 
+line 350: clear
+line 351: buildTree 4
+(8) (8) (7) (4) 
+line 352: inorderTraversal
+(4) (7) (8) (8) 
+line 353: insert (1)
+line 354: inorderTraversal
+(1) (4) (7) (8) (8) 
+line 355: preorderTraversal
+(7) (4) (1) (8) (8) 
+line 356: inorderTraversal
+(1) (4) (7) (8) (8) 
+line 357: insert (9)
+line 358: inorderTraversal
+(1) (4) (7) (8) (8) (9) 
+line 359: insert (9)
+line 360: inorderTraversal
+(1) (4) (7) (8) (8) (9) (9) 
+line 361: preorderTraversal
+(7) (4) (1) (8) (8) (9) (9) 
+line 362: inorderTraversal
+(1) (4) (7) (8) (8) (9) (9) 
+line 363: insert (3)
+line 364: inorderTraversal
+(1) (3) (4) (7) (8) (8) (9) (9) 
+line 365: insert (3)
+line 366: inorderTraversal
+(1) (3) (3) (4) (7) (8) (8) (9) (9) 
+line 367: insert (2)
+line 368: inorderTraversal
+(1) (2) (3) (3) (4) (7) (8) (8) (9) (9) 
+line 369: inorderTraversal
+(1) (2) (3) (3) (4) (7) (8) (8) (9) (9) 
+line 370: inorderTraversal
+(1) (2) (3) (3) (4) (7) (8) (8) (9) (9) 
+line 371: clear
+line 372: buildTree 12
+(3) (2) (5) (7) (5) (7) (6) (9) (3) (7) (8) (10) 
+line 373: inorderTraversal
+(2) (3) (3) (5) (5) (6) (7) (7) (7) (8) (9) (10) 
+line 374: insert (10)
+line 375: inorderTraversal
+(2) (3) (3) (5) (5) (6) (7) (7) (7) (8) (9) (10) (10) 
+line 376: clear
+line 377: buildTree 18
+(9) (5) (9) (6) (5) (3) (6) (4) (1) (5) (10) (7) (2) (8) (6) (5) (7) (4) 
+line 378: inorderTraversal
+(1) (2) (3) (4) (4) (5) (5) (5) (5) (6) (6) (6) (7) (7) (8) (9) (9) (10) 
+line 379: insert (7)
+line 380: inorderTraversal
+(1) (2) (3) (4) (4) (5) (5) (5) (5) (6) (6) (6) (7) (7) (7) (8) (9) (9) (10) 
+line 381: clear
+line 382: buildTree 12
+(5) (2) (4) (4) (3) (2) (1) (1) (10) (2) (6) (5) 
+line 383: inorderTraversal
+(1) (1) (2) (2) (2) (3) (4) (4) (5) (5) (6) (10) 
+line 384: clear
+line 385: buildTree 8
+(2) (5) (4) (8) (7) (9) (4) (5) 
+line 386: inorderTraversal
+(2) (4) (4) (5) (5) (7) (8) (9) 
+line 387: insert (8)
+line 388: inorderTraversal
+(2) (4) (4) (5) (5) (7) (8) (8) (9) 
+line 389: search (10)
+FALSE
+line 390: inorderTraversal
+(2) (4) (4) (5) (5) (7) (8) (8) (9) 
+line 391: remove (4)
+line 392: inorderTraversal
+(2) (4) (5) (5) (7) (8) (8) (9) 
+line 393: clear
+line 394: buildTree 16
+(3) (6) (7) (4) (4) (10) (7) (7) (6) (1) (4) (9) (1) (3) (3) (7) 
+line 395: inorderTraversal
+(1) (1) (3) (3) (3) (4) (4) (4) (6) (6) (7) (7) (7) (7) (9) (10) 
+line 396: clear
+line 397: buildTree 12
+(6) (5) (10) (4) (2) (6) (1) (5) (1) (2) (1) (5) 
+line 398: inorderTraversal
+(1) (1) (1) (2) (2) (4) (5) (5) (5) (6) (6) (10) 
+line 399: preorderTraversal
+(4) (1) (1) (1) (2) (2) (5) (5) (5) (6) (6) (10) 
+line 400: inorderTraversal
+(1) (1) (1) (2) (2) (4) (5) (5) (5) (6) (6) (10) 
+line 401: insert (6)
+line 402: inorderTraversal
+(1) (1) (1) (2) (2) (4) (5) (5) (5) (6) (6) (6) (10) 
+line 403: insert (7)
+line 404: inorderTraversal
+(1) (1) (1) (2) (2) (4) (5) (5) (5) (6) (6) (6) (7) (10) 
+line 405: insert (3)
+line 406: inorderTraversal
+(1) (1) (1) (2) (2) (3) (4) (5) (5) (5) (6) (6) (6) (7) (10) 
+line 407: insert (4)
+line 408: inorderTraversal
+(1) (1) (1) (2) (2) (3) (4) (4) (5) (5) (5) (6) (6) (6) (7) (10) 
+line 409: remove (3)
+line 410: inorderTraversal
+(1) (1) (1) (2) (2) (4) (4) (5) (5) (5) (6) (6) (6) (7) (10) 
+line 411: remove (8)
+line 412: inorderTraversal
+(1) (1) (1) (2) (2) (4) (4) (5) (5) (5) (6) (6) (6) (7) (10) 
+line 413: insert (6)
+line 414: inorderTraversal
+(1) (1) (1) (2) (2) (4) (4) (5) (5) (5) (6) (6) (6) (6) (7) (10) 
+line 415: nodeCount_height_leafCount
+nodeCount=16;height=7;leafCount=6
+line 416: inorderTraversal
+(1) (1) (1) (2) (2) (4) (4) (5) (5) (5) (6) (6) (6) (6) (7) (10) 
+line 417: clear
+line 418: buildTree 14
+(6) (9) (9) (4) (1) (10) (5) (6) (7) (7) (8) (10) (10) (2) 
+line 419: inorderTraversal
+(1) (2) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 420: search (4)
+TRUE
+line 421: inorderTraversal
+(1) (2) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 422: remove (2)
+line 423: inorderTraversal
+(1) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 424: insert (2)
+line 425: inorderTraversal
+(1) (2) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 426: search (1)
+TRUE
+line 427: inorderTraversal
+(1) (2) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 428: nodeCount_height_leafCount
+nodeCount=14;height=4;leafCount=7
+line 429: inorderTraversal
+(1) (2) (4) (5) (6) (6) (7) (7) (8) (9) (9) (10) (10) (10) 
+line 430: clear
+line 431: buildTree 11
+(2) (6) (10) (9) (3) (4) (6) (6) (7) (7) (10) 
+line 432: inorderTraversal
+(2) (3) (4) (6) (6) (6) (7) (7) (9) (10) (10) 
+line 433: clear
+line 434: buildTree 15
+(5) (5) (3) (2) (9) (3) (6) (1) (8) (3) (2) (8) (2) (3) (7) 
+line 435: inorderTraversal
+(1) (2) (2) (2) (3) (3) (3) (3) (5) (5) (6) (7) (8) (8) (9) 
+line 436: clear
+line 437: buildTree 2
+(3) (6) 
+line 438: inorderTraversal
+(3) (6) 
+line 439: insert (4)
+line 440: inorderTraversal
+(3) (4) (6) 
+line 441: clear
+line 442: buildTree 14
+(2) (4) (7) (6) (5) (1) (6) (3) (10) (8) (4) (1) (9) (8) 
+line 443: inorderTraversal
+(1) (1) (2) (3) (4) (4) (5) (6) (6) (7) (8) (8) (9) (10) 
+line 444: postorderTraversal
+(1) (1) (3) (4) (4) (2) (6) (7) (6) (8) (10) (9) (8) (5) 
+line 445: inorderTraversal
+(1) (1) (2) (3) (4) (4) (5) (6) (6) (7) (8) (8) (9) (10) 
+line 446: insert (2)
+line 447: inorderTraversal
+(1) (1) (2) (2) (3) (4) (4) (5) (6) (6) (7) (8) (8) (9) (10) 
+line 448: remove (5)
+line 449: inorderTraversal
+(1) (1) (2) (2) (3) (4) (4) (6) (6) (7) (8) (8) (9) (10) 
+line 450: insert (1)
+line 451: inorderTraversal
+(1) (1) (1) (2) (2) (3) (4) (4) (6) (6) (7) (8) (8) (9) (10) 
+line 452: clear
+line 453: buildTree 11
+(3) (7) (6) (4) (5) (6) (3) (5) (6) (8) (3) 
+line 454: inorderTraversal
+(3) (3) (3) (4) (5) (5) (6) (6) (6) (7) (8) 
+line 455: insert (7)
+line 456: inorderTraversal
+(3) (3) (3) (4) (5) (5) (6) (6) (6) (7) (7) (8) 
+line 457: nodeCount_height_leafCount
+nodeCount=12;height=5;leafCount=4
+line 458: inorderTraversal
+(3) (3) (3) (4) (5) (5) (6) (6) (6) (7) (7) (8) 
+line 459: preorderTraversal
+(5) (3) (3) (3) (4) (5) (6) (6) (6) (7) (8) (7) 
+line 460: postorderTraversal
+(3) (3) (5) (4) (3) (6) (6) (7) (8) (7) (6) (5) 
+line 461: clear

@@ -1,0 +1,506 @@
+k=1
+insert (9)
+inorderTraversal
+remove (9)
+inorderTraversal
+insert (1)
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 14
+(5) (7) (9) (1) (4) (10) (2) (4) (3) (5) (10) (2) (6) (4) 
+inorderTraversal
+insert (6)
+inorderTraversal
+clear
+buildTree 5
+(8) (1) (1) (1) (3) 
+inorderTraversal
+clear
+buildTree 3
+(8) (3) (2) 
+inorderTraversal
+clear
+buildTree 2
+(7) (5) 
+inorderTraversal
+search (8)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (8)
+inorderTraversal
+clear
+buildTree 9
+(3) (10) (4) (7) (10) (6) (10) (4) (4) 
+inorderTraversal
+postorderTraversal
+inorderTraversal
+search (9)
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 11
+(7) (9) (1) (8) (1) (1) (2) (1) (3) (8) (10) 
+inorderTraversal
+clear
+buildTree 18
+(3) (3) (1) (3) (9) (7) (2) (2) (1) (6) (6) (2) (8) (10) (5) (6) (6) (2) 
+inorderTraversal
+remove (4)
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 10
+(4) (8) (3) (3) (7) (4) (1) (2) (4) (1) 
+inorderTraversal
+search (2)
+inorderTraversal
+insert (1)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+insert (3)
+inorderTraversal
+insert (4)
+inorderTraversal
+clear
+buildTree 13
+(10) (1) (2) (10) (3) (2) (9) (3) (9) (10) (2) (5) (5) 
+inorderTraversal
+preorderTraversal
+inorderTraversal
+clear
+buildTree 2
+(5) (9) 
+inorderTraversal
+search (8)
+inorderTraversal
+remove (7)
+inorderTraversal
+insert (8)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (3)
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 7
+(10) (4) (1) (7) (9) (3) (10) 
+inorderTraversal
+clear
+buildTree 5
+(4) (1) (5) (2) (10) 
+inorderTraversal
+remove (4)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (8)
+inorderTraversal
+insert (1)
+inorderTraversal
+insert (6)
+inorderTraversal
+clear
+buildTree 16
+(8) (2) (6) (9) (1) (3) (10) (7) (2) (8) (10) (5) (3) (10) (3) (9) 
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 9
+(7) (8) (5) (5) (1) (8) (3) (10) (5) 
+inorderTraversal
+insert (7)
+inorderTraversal
+clear
+buildTree 12
+(6) (3) (2) (8) (8) (8) (6) (10) (10) (9) (3) (6) 
+inorderTraversal
+search (10)
+inorderTraversal
+insert (4)
+inorderTraversal
+clear
+buildTree 12
+(3) (2) (7) (8) (10) (9) (10) (6) (9) (3) (9) (2) 
+inorderTraversal
+insert (10)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+remove (10)
+inorderTraversal
+insert (4)
+inorderTraversal
+insert (3)
+inorderTraversal
+insert (9)
+inorderTraversal
+clear
+buildTree 9
+(2) (1) (7) (8) (1) (1) (2) (8) (8) 
+inorderTraversal
+postorderTraversal
+inorderTraversal
+insert (4)
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (6)
+inorderTraversal
+remove (9)
+inorderTraversal
+clear
+buildTree 19
+(9) (7) (7) (6) (3) (5) (2) (9) (7) (6) (6) (1) (5) (5) (4) (8) (4) (9) (6) 
+inorderTraversal
+remove (7)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (2)
+inorderTraversal
+remove (3)
+inorderTraversal
+clear
+buildTree 9
+(1) (4) (2) (4) (1) (10) (4) (10) (4) 
+inorderTraversal
+clear
+buildTree 5
+(6) (5) (9) (3) (7) 
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (6)
+inorderTraversal
+insert (10)
+inorderTraversal
+clear
+buildTree 17
+(10) (7) (5) (9) (6) (3) (2) (8) (2) (8) (6) (5) (10) (5) (8) (3) (1) 
+inorderTraversal
+insert (1)
+inorderTraversal
+insert (1)
+inorderTraversal
+remove (3)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (1)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+remove (4)
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (8)
+inorderTraversal
+insert (4)
+inorderTraversal
+clear
+buildTree 19
+(4) (5) (8) (9) (1) (6) (4) (1) (9) (6) (10) (5) (5) (7) (3) (3) (1) (1) (1) 
+inorderTraversal
+insert (6)
+inorderTraversal
+insert (4)
+inorderTraversal
+postorderTraversal
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (5)
+inorderTraversal
+remove (2)
+inorderTraversal
+remove (7)
+inorderTraversal
+clear
+buildTree 5
+(6) (1) (4) (2) (7) 
+inorderTraversal
+remove (8)
+inorderTraversal
+clear
+buildTree 3
+(4) (7) (2) 
+inorderTraversal
+insert (1)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 3
+(4) (6) (5) 
+inorderTraversal
+clear
+buildTree 1
+(8) 
+inorderTraversal
+remove (2)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (4)
+inorderTraversal
+insert (10)
+inorderTraversal
+clear
+buildTree 15
+(2) (4) (3) (6) (6) (9) (9) (6) (6) (10) (2) (5) (4) (6) (5) 
+inorderTraversal
+insert (9)
+inorderTraversal
+remove (8)
+inorderTraversal
+remove (8)
+inorderTraversal
+clear
+buildTree 2
+(5) (1) 
+inorderTraversal
+insert (10)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 2
+(1) (3) 
+inorderTraversal
+insert (10)
+inorderTraversal
+remove (9)
+inorderTraversal
+insert (7)
+inorderTraversal
+clear
+buildTree 13
+(4) (10) (9) (3) (4) (10) (10) (8) (1) (1) (10) (3) (7) 
+inorderTraversal
+clear
+buildTree 7
+(9) (2) (6) (7) (10) (3) (4) 
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (9)
+inorderTraversal
+search (1)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (8)
+inorderTraversal
+insert (6)
+inorderTraversal
+search (5)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (3)
+inorderTraversal
+remove (1)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (1)
+inorderTraversal
+insert (1)
+inorderTraversal
+insert (6)
+inorderTraversal
+search (1)
+inorderTraversal
+search (3)
+inorderTraversal
+clear
+buildTree 2
+(3) (3) 
+inorderTraversal
+search (1)
+inorderTraversal
+clear
+buildTree 3
+(6) (4) (6) 
+inorderTraversal
+remove (10)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+clear
+buildTree 10
+(3) (1) (4) (4) (7) (6) (6) (10) (6) (8) 
+inorderTraversal
+remove (7)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (5)
+inorderTraversal
+remove (10)
+inorderTraversal
+insert (10)
+inorderTraversal
+insert (4)
+inorderTraversal
+insert (4)
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (5)
+inorderTraversal
+insert (3)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 4
+(3) (9) (1) (4) 
+inorderTraversal
+insert (7)
+inorderTraversal
+clear
+buildTree 10
+(6) (5) (4) (6) (2) (10) (4) (5) (7) (2) 
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (9)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 8
+(5) (7) (10) (5) (8) (4) (3) (1) 
+inorderTraversal
+insert (3)
+inorderTraversal
+search (4)
+inorderTraversal
+insert (2)
+inorderTraversal
+remove (10)
+inorderTraversal
+insert (2)
+inorderTraversal
+search (2)
+inorderTraversal
+insert (3)
+inorderTraversal
+search (2)
+inorderTraversal
+remove (1)
+inorderTraversal
+insert (7)
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 10
+(6) (3) (5) (9) (6) (4) (6) (2) (8) (8) 
+inorderTraversal
+clear
+buildTree 1
+(2) 
+inorderTraversal
+clear
+buildTree 8
+(9) (3) (4) (3) (3) (10) (5) (3) 
+inorderTraversal
+clear
+buildTree 15
+(3) (10) (10) (3) (10) (3) (5) (5) (7) (3) (4) (1) (2) (5) (8) 
+inorderTraversal
+insert (5)
+inorderTraversal
+clear
+buildTree 20
+(9) (9) (2) (9) (1) (5) (6) (5) (7) (9) (2) (1) (6) (3) (9) (7) (3) (10) (1) (4) 
+inorderTraversal
+insert (10)
+inorderTraversal
+clear
+buildTree 1
+(9) 
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (7)
+inorderTraversal
+clear
+buildTree 7
+(6) (3) (6) (4) (6) (3) (10) 
+inorderTraversal
+clear
+buildTree 12
+(8) (1) (6) (9) (7) (8) (9) (10) (10) (4) (6) (7) 
+inorderTraversal
+insert (2)
+inorderTraversal
+insert (4)
+inorderTraversal
+clear
+buildTree 17
+(7) (6) (2) (3) (10) (4) (8) (4) (10) (5) (2) (2) (6) (9) (6) (10) (6) 
+inorderTraversal
+remove (2)
+inorderTraversal
+insert (1)
+inorderTraversal
+clear
+buildTree 4
+(5) (8) (4) (9) 
+inorderTraversal
+clear
+buildTree 17
+(6) (4) (2) (6) (2) (5) (9) (1) (7) (3) (1) (7) (7) (5) (6) (9) (4) 
+inorderTraversal
+clear
+buildTree 10
+(4) (10) (10) (3) (3) (10) (9) (4) (5) (3) 
+inorderTraversal
+remove (4)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (3)
+inorderTraversal
+clear
+buildTree 4
+(9) (4) (7) (1) 
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+clear

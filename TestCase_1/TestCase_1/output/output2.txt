@@ -1,0 +1,53 @@
+line 1: k=1
+line 2: search (6)
+FALSE
+line 3: insert (6)
+line 4: insert (8)
+line 5: insert (7)
+line 6: insert (9)
+line 7: insert (10)
+line 8: insert (11)
+line 9: insert (4)
+line 10: insert (5)
+line 11: insert (2)
+line 12: insert (3)
+line 13: insert (1)
+line 14: nodeCount_height_leafCount
+nodeCount=11;height=5;leafCount=5
+line 15: inorderTraversal
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) 
+line 16: preorderTraversal
+(6) (4) (2) (1) (3) (5) (8) (7) (9) (10) (11) 
+line 17: postorderTraversal
+(1) (3) (2) (5) (4) (7) (11) (10) (9) (8) (6) 
+line 18: search (0)
+FALSE
+line 19: search (5)
+TRUE
+line 20: search (1)
+TRUE
+line 21: search (6)
+TRUE
+line 22: search (8)
+TRUE
+line 23: search (7)
+TRUE
+line 24: search (9)
+TRUE
+line 25: search (10)
+TRUE
+line 26: search (11)
+TRUE
+line 27: search (4)
+TRUE
+line 28: search (5)
+TRUE
+line 29: search (2)
+TRUE
+line 30: search (3)
+TRUE
+line 31: search (1)
+TRUE
+line 32: clear
+line 33: nodeCount_height_leafCount
+nodeCount=0;height=0;leafCount=0

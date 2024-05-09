@@ -1,0 +1,34 @@
+k=1
+search (6)
+insert (6)
+insert (8)
+insert (7)
+insert (9)
+insert (10)
+insert (11)
+insert (4)
+insert (5)
+insert (2)
+insert (3)
+insert (1)
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+search (0)
+search (5)
+search (1)
+search (6)
+search (8)
+search (7)
+search (9)
+search (10)
+search (11)
+search (4)
+search (5)
+search (2)
+search (3)
+search (1)
+clear
+nodeCount_height_leafCount
+

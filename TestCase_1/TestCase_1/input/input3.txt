@@ -1,0 +1,29 @@
+k=2
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+insert (5,6)
+nodeCount_height_leafCount
+inorderTraversal
+insert (2,2)
+nodeCount_height_leafCount
+inorderTraversal
+insert (2,8)
+inorderTraversal
+insert (7,3)
+nodeCount_height_leafCount
+inorderTraversal
+insert (3,5)
+inorderTraversal
+insert (8,1)
+inorderTraversal
+insert (8,7)
+inorderTraversal
+insert (9,6)
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+clear
+nodeCount_height_leafCount

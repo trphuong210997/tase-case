@@ -1,0 +1,399 @@
+k=3
+postorderTraversal
+inorderTraversal
+insert (4,2,2)
+inorderTraversal
+insert (3,1,9)
+inorderTraversal
+insert (10,9,3)
+inorderTraversal
+search (3,1,9)
+inorderTraversal
+insert (8,2,7)
+inorderTraversal
+insert (4,10,1)
+inorderTraversal
+insert (10,5,8)
+inorderTraversal
+search (10,5,8)
+inorderTraversal
+insert (3,6,1)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (1,2,7)
+inorderTraversal
+insert (5,8,2)
+inorderTraversal
+insert (6,8,1)
+inorderTraversal
+insert (2,1,3)
+inorderTraversal
+insert (4,4,4)
+inorderTraversal
+search (3,6,1)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (9,8,9)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (5,8,8)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+postorderTraversal
+inorderTraversal
+insert (5,9,7)
+inorderTraversal
+inorderTraversal
+insert (7,1,2)
+inorderTraversal
+search (7,1,2)
+inorderTraversal
+insert (3,1,3)
+inorderTraversal
+insert (1,8,7)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+insert (9,7,6)
+inorderTraversal
+insert (9,1,8)
+inorderTraversal
+insert (2,8,2)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (5,4,8)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (9,1,5)
+inorderTraversal
+insert (8,3,10)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+search (9,8,9)
+inorderTraversal
+insert (5,6,2)
+inorderTraversal
+insert (7,10,6)
+inorderTraversal
+insert (2,8,2)
+inorderTraversal
+insert (5,6,6)
+inorderTraversal
+insert (3,7,3)
+inorderTraversal
+insert (3,3,7)
+inorderTraversal
+insert (4,3,4)
+inorderTraversal
+insert (7,2,2)
+inorderTraversal
+insert (5,3,10)
+inorderTraversal
+search (5,6,2)
+inorderTraversal
+postorderTraversal
+inorderTraversal
+insert (6,3,7)
+inorderTraversal
+insert (8,1,3)
+inorderTraversal
+insert (10,8,6)
+inorderTraversal
+insert (9,8,2)
+inorderTraversal
+postorderTraversal
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (4,7,3)
+inorderTraversal
+inorderTraversal
+insert (10,5,7)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+insert (9,6,1)
+inorderTraversal
+search (9,8,9)
+inorderTraversal
+inorderTraversal
+search (5,6,6)
+inorderTraversal
+insert (6,4,9)
+inorderTraversal
+insert (8,1,2)
+inorderTraversal
+insert (3,10,1)
+inorderTraversal
+insert (7,5,9)
+inorderTraversal
+insert (8,1,3)
+inorderTraversal
+insert (6,8,5)
+inorderTraversal
+insert (6,8,10)
+inorderTraversal
+insert (3,3,6)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (6,10,10)
+inorderTraversal
+insert (1,7,8)
+inorderTraversal
+search (5,2,6)
+inorderTraversal
+search (9,6,1)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (3,2,2)
+inorderTraversal
+insert (7,8,1)
+inorderTraversal
+insert (5,2,9)
+inorderTraversal
+insert (5,1,8)
+inorderTraversal
+insert (1,10,9)
+inorderTraversal
+insert (9,1,4)
+inorderTraversal
+insert (2,4,8)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+search (3,3,7)
+inorderTraversal
+insert (1,4,3)
+inorderTraversal
+search (3,2,2)
+inorderTraversal
+insert (5,8,10)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (9,2,4)
+inorderTraversal
+insert (9,9,5)
+inorderTraversal
+search (5,9,7)
+inorderTraversal
+search (7,1,2)
+inorderTraversal
+insert (5,4,3)
+inorderTraversal
+search (3,7,3)
+inorderTraversal
+insert (2,6,4)
+inorderTraversal
+insert (7,1,7)
+inorderTraversal
+search (10,8,6)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (7,3,8)
+inorderTraversal
+insert (7,5,10)
+inorderTraversal
+insert (1,1,10)
+inorderTraversal
+insert (5,7,1)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (4,8,7)
+inorderTraversal
+insert (2,1,8)
+inorderTraversal
+search (5,3,10)
+inorderTraversal
+insert (1,6,3)
+inorderTraversal
+search (10,8,6)
+inorderTraversal
+insert (6,9,5)
+inorderTraversal
+search (9,2,6)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+search (7,5,9)
+inorderTraversal
+insert (2,5,6)
+inorderTraversal
+insert (2,1,2)
+inorderTraversal
+inorderTraversal
+insert (5,9,3)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+search (5,4,3)
+inorderTraversal
+search (10,8,6)
+inorderTraversal
+insert (2,6,8)
+inorderTraversal
+insert (2,2,10)
+inorderTraversal
+inorderTraversal
+insert (2,8,6)
+inorderTraversal
+search (9,1,4)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+search (3,3,7)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+inorderTraversal
+inorderTraversal
+search (5,3,10)
+inorderTraversal
+insert (5,6,1)
+inorderTraversal
+insert (1,9,10)
+inorderTraversal
+insert (5,2,9)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (1,10,2)
+inorderTraversal
+insert (7,1,6)
+inorderTraversal
+insert (10,5,3)
+inorderTraversal
+insert (6,9,3)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (6,2,8)
+inorderTraversal
+search (8,2,7)
+inorderTraversal
+insert (5,3,7)
+inorderTraversal
+insert (7,1,3)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+insert (1,1,1)
+inorderTraversal
+insert (10,3,2)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (5,8,6)
+inorderTraversal
+insert (2,9,1)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+insert (2,8,7)
+inorderTraversal
+insert (6,9,7)
+inorderTraversal
+insert (1,2,2)
+inorderTraversal
+insert (10,5,7)
+inorderTraversal
+insert (1,4,2)
+inorderTraversal
+insert (5,9,9)
+inorderTraversal
+search (10,5,7)
+inorderTraversal
+insert (5,3,10)
+inorderTraversal
+search (5,8,3)
+inorderTraversal
+insert (3,1,3)
+inorderTraversal
+preorderTraversal
+inorderTraversal
+search (6,8,5)
+inorderTraversal
+insert (9,8,3)
+inorderTraversal
+insert (3,1,8)
+inorderTraversal
+insert (2,5,1)
+inorderTraversal
+insert (4,10,9)
+inorderTraversal
+search (6,10,10)
+inorderTraversal
+search (6,8,10)
+inorderTraversal
+insert (7,4,7)
+inorderTraversal
+inorderTraversal
+inorderTraversal
+insert (5,10,1)
+inorderTraversal
+insert (8,2,3)
+inorderTraversal
+insert (3,9,4)
+inorderTraversal
+insert (2,1,1)
+inorderTraversal
+insert (9,7,8)
+inorderTraversal
+insert (5,7,6)
+inorderTraversal
+insert (2,10,6)
+inorderTraversal
+insert (9,6,6)
+inorderTraversal
+insert (2,1,6)
+inorderTraversal
+insert (5,7,8)
+inorderTraversal
+insert (10,3,5)
+inorderTraversal
+inorderTraversal
+insert (1,1,3)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+insert (8,7,6)
+inorderTraversal
+insert (6,3,5)
+inorderTraversal
+insert (4,1,9)
+inorderTraversal
+insert (4,6,5)
+inorderTraversal
+postorderTraversal
+inorderTraversal
+insert (3,9,3)
+inorderTraversal
+search (2,1,1)
+inorderTraversal
+search (5,3,7)
+inorderTraversal
+postorderTraversal
+inorderTraversal
+inorderTraversal
+insert (3,5,6)
+inorderTraversal
+insert (4,2,9)
+inorderTraversal
+nodeCount_height_leafCount
+inorderTraversal
+preorderTraversal
+postorderTraversal
+clear

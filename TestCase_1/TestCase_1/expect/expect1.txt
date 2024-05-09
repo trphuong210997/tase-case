@@ -1,0 +1,51 @@
+line 1: k=1
+line 2: clear
+line 3: nodeCount_height_leafCount
+nodeCount=0;height=0;leafCount=0
+line 4: inorderTraversal
+
+line 5: preorderTraversal
+
+line 6: postorderTraversal
+
+line 7: insert (1)
+line 8: nodeCount_height_leafCount
+nodeCount=1;height=1;leafCount=1
+line 9: inorderTraversal
+(1) 
+line 10: preorderTraversal
+(1) 
+line 11: postorderTraversal
+(1) 
+line 12: insert (3)
+line 13: nodeCount_height_leafCount
+nodeCount=2;height=2;leafCount=1
+line 14: inorderTraversal
+(1) (3) 
+line 15: insert (2)
+line 16: inorderTraversal
+(1) (2) (3) 
+line 17: insert (4)
+line 18: inorderTraversal
+(1) (2) (3) (4) 
+line 19: insert (-5)
+line 20: inorderTraversal
+(-5) (1) (2) (3) (4) 
+line 21: insert (5)
+line 22: inorderTraversal
+(-5) (1) (2) (3) (4) (5) 
+line 23: insert (-2)
+line 24: inorderTraversal
+(-5) (-2) (1) (2) (3) (4) (5) 
+line 25: insert (-10)
+line 26: nodeCount_height_leafCount
+nodeCount=8;height=4;leafCount=4
+line 27: inorderTraversal
+(-10) (-5) (-2) (1) (2) (3) (4) (5) 
+line 28: preorderTraversal
+(1) (-5) (-10) (-2) (3) (2) (4) (5) 
+line 29: postorderTraversal
+(-10) (-2) (-5) (2) (5) (4) (3) (1) 
+line 30: clear
+line 31: nodeCount_height_leafCount
+nodeCount=0;height=0;leafCount=0

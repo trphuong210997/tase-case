@@ -1,0 +1,45 @@
+line 1: k=2
+line 2: insert (5,6)
+line 3: insert (2,2)
+line 4: insert (2,8)
+line 5: insert (7,3)
+line 6: insert (3,5)
+line 7: insert (8,1)
+line 8: insert (10,2)
+line 9: nodeCount_height_leafCount
+nodeCount=7;height=4;leafCount=2
+line 10: inorderTraversal
+(2,2) (2,8) (3,5) (5,6) (8,1) (10,2) (7,3) 
+line 11: preorderTraversal
+(5,6) (2,2) (2,8) (3,5) (7,3) (8,1) (10,2) 
+line 12: postorderTraversal
+(3,5) (2,8) (2,2) (10,2) (8,1) (7,3) (5,6) 
+line 13: remove (5,6)
+line 14: inorderTraversal
+(2,2) (2,8) (3,5) (7,3) (8,1) (10,2) 
+line 15: insert (10,8)
+line 16: inorderTraversal
+(2,2) (2,8) (3,5) (7,3) (8,1) (10,2) (10,8) 
+line 17: insert (10,1)
+line 18: inorderTraversal
+(2,2) (2,8) (3,5) (7,3) (8,1) (10,2) (10,1) (10,8) 
+line 19: remove (10,1)
+line 20: inorderTraversal
+(2,2) (2,8) (3,5) (7,3) (8,1) (10,2) (10,8) 
+line 21: remove (10,8)
+line 22: remove (2,2)
+line 23: remove (2,8)
+line 24: inorderTraversal
+(3,5) (7,3) (8,1) (10,2) 
+line 25: remove (7,3)
+line 26: remove (3,5)
+line 27: remove (8,1)
+line 28: inorderTraversal
+(10,2) 
+line 29: remove (10,2)
+line 30: inorderTraversal
+
+line 31: insert (10,8)
+line 32: remove (10,8)
+line 33: inorderTraversal
+
