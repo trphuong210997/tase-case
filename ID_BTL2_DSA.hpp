@@ -181,72 +181,65 @@ public:
         return searchHelper(root, point, 0);
     }
 
+    Node *minNode(Node *x, Node *y, Node *z, int alpha) {
+        Node *min = x;
+        if (y != nullptr && y->data[alpha] < min->data[alpha])
+            min = y;
+        if (z != nullptr && z->data[alpha] < min->data[alpha])
+            min = z;
+        return min;
+    }
+
     Node *findMin(Node *node, int treeLevel, int alpha) {
-        if (node->left == nullptr && node->right == nullptr)
+        if (node == nullptr)
             return node;
         
-        Node *current = node;
         int dimension = treeLevel % k;
 
         if (dimension == alpha) {
             if (node->left != nullptr) {
-                node = node->left;
-                return findMin(node, treeLevel + 1, alpha);
+                return findMin(node->left, treeLevel + 1, alpha);
             }
-            return node;
+            else
+                return node;
         }
 
-        if (dimension != alpha) {
-            Node * nodeLeft = findMin(node->left, treeLevel + 1, alpha);
-            Node * nodeRight = findMin(node->right, treeLevel + 1, alpha);
-            vector<int> Data[3] = {node->data, nodeLeft->data, nodeRight->data};
-            Node * minNode = node;
-            for (int i = 0; i < 3; i++) {
-                if (Data[i][alpha] < minNode->data[alpha])
-                    minNode = node;
-            }
-            return minNode;
-        }
-        return current;
+        else 
+            return minNode(node, findMin(node->left, treeLevel + 1, alpha), findMin(node->right, treeLevel + 1, alpha), alpha);
     }
 
-    // int findDimention(Node *node, vector<int> point, int treeLevel) {
-    //     int dimention = -1;
-    //     if (node == nullptr)
-    //         return -1;
-        
-    //     if (node->data[treeLevel % k] == point[treeLevel % k])
-    //         return 1;
-
-        
-    // }
-
-    void removeHelper(Node *node, Node* prev_node, const vector<int> &point, int treeLevel) {
+    void removeHelper(Node* &node, Node* prev_node, const vector<int> &point, int treeLevel) {
         if (node == nullptr)
             return;
-
         if (node->data == point) {
             int dimension = treeLevel % k;
+
             if (node->left == nullptr && node->right == nullptr) {
-                if (prev_node->left == node)
-                    prev_node->left = nullptr;
-                else
-                    prev_node->right = nullptr;
+                if (prev_node != nullptr) {
+                    if (prev_node->left == node)
+                        prev_node->left = nullptr;
+                    else if (prev_node->right == node)
+                        prev_node->right = nullptr;
+                }
                 delete node;
+                node = nullptr;
+                prev_node = nullptr;
                 count--;
                 return;
             }
 
             if (node->right != nullptr) {
-                Node *minNodeRight = findMin(node->right, treeLevel, dimension);
+                Node *minNodeRight = findMin(node->right, treeLevel + 1, dimension);
                 node->data = minNodeRight->data;
-                return removeHelper(node->right, node, minNodeRight->data, treeLevel + 1);                      
+                return removeHelper(node->right, node, minNodeRight->data, treeLevel + 1); 
             }
 
             if (node->right == nullptr) {
-                Node *minNodeLeft = findMin(node->left, treeLevel, dimension);
+                Node *minNodeLeft = findMin(node->left, treeLevel + 1, dimension);
                 node->data = minNodeLeft->data;
-                return removeHelper(node->left, node, minNodeLeft->data, treeLevel + 1);
+                node->right = node->left;
+                node->left = nullptr;
+                return removeHelper(node->right, node, minNodeLeft->data, treeLevel + 1);
             }
         }
 
@@ -294,6 +287,7 @@ public:
         sort(pointListCopy, k, dimension);
         int ListMidpoint = findFirstMedian(pointListCopy);
         Node *node = new Node(pointListCopy[ListMidpoint]);
+        count++;
 
         node->left = buildTreeHelper(vector<vector<int>>(pointListCopy.begin(), pointListCopy.begin() + ListMidpoint), treeLevel + 1);
         node->right = buildTreeHelper(vector<vector<int>>(pointListCopy.begin() + ListMidpoint + 1, pointListCopy.end()), treeLevel + 1);
