@@ -253,26 +253,24 @@ public:
         return removeHelper(root, nullptr, point, 0);
     }
 
-    void sort(vector<vector<int>> &pointList, int k, int dimension) {
-        for (int i = 0; i < pointList.size(); i++) {
-            for (int j = i + 1; j < pointList.size(); j++) {
-                if (pointList[i][dimension] > pointList[j][dimension]) {
-                    vector<int> temp = pointList[i];
-                    pointList[i] = pointList[j];
-                    pointList[j] = temp;
+    void sort(vector<vector<int>> &pointList, int dimension) {
+        int n = pointList.size();
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (pointList[j][dimension] > pointList[j + 1][dimension] ||
+                    (pointList[j][dimension] == pointList[j + 1][dimension] && j > j + 1)) {
+                    swap(pointList[j], pointList[j + 1]);
                 }
             }
         }
     }
 
-    int findFirstMedian (const vector<vector<int>> &pointList) {
-        int ListMidpoint;
+    int findMedian (const vector<vector<int>> &pointList, int dimension) {
+        int ListMidpoint = pointList.size() / 2;
         if (pointList.size() % 2 == 0)
-            ListMidpoint = pointList.size() / 2 - 1;
-        else
-            ListMidpoint = pointList.size() / 2;
+            ListMidpoint--;
         for (int i = 0; i < ListMidpoint; i++) {
-            if (pointList[i] == pointList[ListMidpoint])
+            if (pointList[i][dimension] == pointList[ListMidpoint][dimension])
                 return i;
         }
         return ListMidpoint;
@@ -280,12 +278,12 @@ public:
     
     Node *buildTreeHelper(const vector<vector<int>> &pointList, int treeLevel) {
         vector<vector<int>> pointListCopy = pointList;
-        if (pointList.size() == 0)
+        if (pointListCopy.size() == 0)
             return nullptr;
         
         int dimension = treeLevel % k;
-        sort(pointListCopy, k, dimension);
-        int ListMidpoint = findFirstMedian(pointListCopy);
+        sort(pointListCopy, dimension);
+        int ListMidpoint = findMedian(pointListCopy, dimension);
         Node *node = new Node(pointListCopy[ListMidpoint]);
         count++;
 
@@ -307,26 +305,34 @@ public:
         return sqrt(distance);
     }
 
-    // Node *findBestNode(Node *node, const vector<int> &target, int treeLevel) {
-    //     if (node)
-    //         return nullptr;
-        
-    //     if (target[treeLevel % k] < node->data[treeLevel % k]) 
-    //         return findBestNode(node->left, target, treeLevel + 1);
-    //     else
-    //         return findBestNode(node->right, target, treeLevel + 1);
-        
-    //     return best;
-    // }
     
-    // void nearestNeighbourHelper(Node *node, const vector<int> &target, Node *best, int treeLevel) {
-    //     Node *bestNode = findBestNode(root, target, 0);
-    // }
+    void nearestNeighbourHelper(Node *node, const vector<int> &target, Node *best, int treeLevel) {
+        if (node == nullptr) return;
 
-    // void nearestNeighbour(const vector<int> &target, Node *best) {
-    //     best = nullptr;
-    //     return nearestNeighbourHelper(root, target, best, 0);
-    // }
+        if (best == nullptr)
+            best = node;
+        else if (calculateDistance(node->data, target) < calculateDistance(best->data, target))
+            best = node;
+
+        int dimensionDistance = abs(node->data[treeLevel % k] - target[treeLevel % k]);
+        if (target[treeLevel % k] < node->data[treeLevel % k]) {
+            nearestNeighbourHelper(node->left, target, best, treeLevel + 1);
+            if (dimensionDistance < calculateDistance(best->data, target)) {
+                nearestNeighbourHelper(node->right, target, best, treeLevel + 1);
+            }
+        } 
+        else {
+            nearestNeighbourHelper(node->right, target, best, treeLevel + 1);
+            if (dimensionDistance < calculateDistance(best->data, target)) {
+                nearestNeighbourHelper(node->left, target, best, treeLevel + 1);
+            }
+        }
+    }
+
+    void nearestNeighbour(const vector<int> &target, Node *best) {
+        best = nullptr;
+        return nearestNeighbourHelper(root, target, best, 0);
+    }
 
     void kNearestNeighbour(const vector<int> &target, int k, vector<Node *> &bestList);
 };
